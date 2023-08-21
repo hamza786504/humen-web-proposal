@@ -15,7 +15,7 @@ ul{
     margin-bottom: 0;
 }
 .page_content_cover{
-    background-image: linear-gradient(rgba(255,255,255,0.2) 60% , var(--dark-green) 80% , var(--dark-green) 100%), url("../images/background-image.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.2) 80% , var(--dark-green) 100%), url("../images/background-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top 6% center;
@@ -29,33 +29,31 @@ ul{
     text-align: center;
     width: 100%;
     height: fit-content;
-    padding: 2rem;
+    padding: 4vh 1vw;
 }
 .logo img{
-    max-width: max-content;
+    width: max-content;
+    max-width: 30vw;
     width: 100%;
 }
 .text{
     text-align: center;
-    margin: 20px auto;
-    font-size: 1.3rem;
+    margin: 0.7vw auto;
+    font-size: 1.5vw;
     color: #586c89;
     font-weight: 700;
 }
 .link{
     color: #a0a0a0;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
 }
 
 
 
 
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width : 900px) {
     .text{
-        font-size: 2rem;
+        margin: 1.4rem;
     }
-    .link{
-        font-size: 1rem;
-    }    
 }
